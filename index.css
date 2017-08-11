@@ -1,0 +1,107 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html,body{
+	height: 100%;
+}
+body{
+	overflow: hidden;
+}
+.wrap{
+	width: 900px;
+	height: 300px;
+	margin: %5 suto;
+}
+.wrap .inputFrame{
+	width:400px;
+	height:300px;
+	margin: 10px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	float: left;
+	border-radius: 10px 10px 0 0;
+}
+.wrap .outputFrame{
+	width:400px;
+	height:300px;
+	margin: 10px;
+	border: 1px solid #000;
+	box-sizing: border-box;
+	float: right;
+	border-radius: 10px 10px 0 0;
+}
+.wrap .title{
+	position: relative;
+	width: 100%;
+	height: 30px;
+	background-color:#333;
+	line-height: 30px;
+	color: #fff;
+	font-size: 14px;
+	text-indent: 1em;
+	border-radius: 10px 10px 0 0;
+}
+.wrap .title .lang:hover{
+	color: #ccc;
+}
+.wrap .title .langs{
+	position: absolute;
+	top:30px;
+	left: 5px;
+	width: 258px;
+	height: auto;
+	border: 1px solid #000;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	display: none;
+}
+
+.wrap .title .langs ul li{
+	text-indent: 0;
+	/*.title中设置了缩进*/
+	float: left;
+	width: 78px;
+	height: 30px;
+	margin: 3px;
+	list-style: none;
+	border: 1px dashed #ccc;
+	line-height: 30px;
+}
+.wrap .title .langs li:hover{
+	background-color: #333;
+	border: 1px solid #333;
+	color:#fff;
+}
+
+.wrap .text{
+	width: 100%;
+	height:268px;
+	padding: 15px;
+	box-sizing: border-box;
+	outline: none;
+	resize: none;
+}
+.wrap .content{
+	width: 100%;
+	height:268px;
+	padding: 15px;
+	box-sizing: border-box;
+}
+.wrap .butt{
+	width: 100%;
+	height: 50px;
+	float: left;
+}
+.wrap .butt button{
+	width: 50px;
+	height: 30px;
+	border-radius: 10px;
+	font-size: 14px;
+	margin: 10px 20px;
+	float: right;
+	background-color: #333;
+	color: #fff;
+	border: none;
+}

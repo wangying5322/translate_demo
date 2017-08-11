@@ -1,0 +1,44 @@
+<!DocType html>
+<html>
+<header>
+	<meta charset="UTF-8">
+	<title> 在线翻译小demo </title>
+	<meta name="author" content="wangying">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</header>
+
+<body>
+	<div class="wrap">
+		<div class="inputFrame">
+			<div class="title"><span class="lang">自动检测</span>
+				<div class="langs">
+					<ul>
+						<li data-lang="zh">中文</li>
+						<li data-lang="en">英文</li>
+						<li data-lang="yue">粤语</li>
+						<li data-lang="jp">日语</li>
+						<li data-lang="kor">韩语</li>
+						<li data-lang="fra">法语</li>
+						<li data-lang="spa">西班牙语</li>
+						<li data-lang="ru">俄语</li>
+						<li data-lang="pl">波兰语</li>
+						<li data-lang="fin">芬兰语</li>
+					</ul>
+				</div>
+			</div>
+			<textarea class="text" placeholder="请在这里输入想要翻译的内容"></textarea>
+		</div>
+		<div class="outputFrame">
+			<div class="title"> 翻译结果：</div>
+			<div class="content"></div>
+		</div>
+		<div class="butt">
+			<button class="reset"> 清除 </button>
+			<button class="trans"> 翻译 </button>
+		</div>
+	</div>
+	<script src="md5.js"></script>
+	<script src="translate.js"></script>
+
+</body>
+</html>
